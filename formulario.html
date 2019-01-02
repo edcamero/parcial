@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/miestilo.css">
+	<title>Formulario</title>
+
+</head>
+<body>
+	<div class="container">
+		<header class=" bg-secundario rounded-bottom-e ">
+			<h1 class="mb-0">header</h1>
+		</header>
+		<section class="container my-3">
+			<div class="row justify-content-center container">
+			<div class="row col-6  bg-primario text-center justify-content-center rounded ">
+				
+					<h1 class=" text-white">Registro</h1>
+				
+				
+				<form action="" class="col-12" autocomplete="off">
+					<div class="form-group py-2">
+						<label for="" class="text-white col-12">Nombre: <input type="text" id="nombre"	name="nombre" class="form-control text-center" placeholder="Ingrese su nombre"></label>
+						
+					</div>
+					<div class="form-group ">
+						<label for="email" class="text-white col-12"> Correo:<input type="email" name="email" class="email text-center form-control" placeholder="ingrese correo"></label>
+						
+					</div>
+
+					<div class="form-group">
+						<label for="fecha" class="text-white">Fecha de nacimiento: <input type="date" name=fecha class="form-control"></label>
+					</div>
+
+					<div>
+						<datalist id="informacion">
+  							<option value=123123123 label=”Teléfono-1”>
+  							<option value=”456456456” label=”Teléfono 2”>
+						</datalist>
+
+						<input type="tel" name="telefono" id="telefono" list="informacion">
+
+					</div>
+
+
+
+						<input type="submit" class="my-3 btn btn-primary">					
+
+				</form>
+				
+			</div>
+		</div>
+		</section>
+		<footer class="bg-secundario rounded-top-e relative-e">
+		<h1>footer</h1>
+		</footer>
+	</div>
+	
+	
+</body>
+</html>

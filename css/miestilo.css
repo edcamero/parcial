@@ -1,0 +1,63 @@
+body{
+background-image:url("../img/fondo.jpg");
+}
+
+/*Definicion de colores coorporativos
+*
+*/
+.bg-primario{
+	background:rgb(0,0,0,0.8);
+	color: #fff !important;
+}
+
+.bg-secundario{
+	background: rgba(0, 123, 255,0.8);
+}
+
+.btn-block-e {
+  display: block;
+  width: 60%;
+  margin: 0px 20%;
+}
+
+/*Posiciones de algunos elementos */
+.container>section{
+	height: 80%;
+}
+
+@media(min-width: 992px){
+	footer{
+  position: relative;
+  top: 3rem;
+  }
+  section>div>div{
+  	margin: 4rem 0rem 0rem 0rem;
+  }
+}
+
+
+
+.btn-primario {
+  color: #fff;
+  background-color: #6610f2;
+  border-color: #007bff;
+}
+
+.rotar:hover{
+	transform: skew(10deg);
+	transition: 1s;
+}
+
+.rounded-top-e {
+  border-top-left-radius: 0.9rem !important;
+  border-top-right-radius: 0.9rem !important;
+}
+
+.rounded-bottom-e {
+  border-bottom-right-radius: 0.9rem !important;
+  border-bottom-left-radius: 0.9rem !important;
+}
+
+
+
+
